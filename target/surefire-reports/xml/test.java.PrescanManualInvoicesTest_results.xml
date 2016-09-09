@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Prescan Manual Invoices"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="10.454">
+  <properties />
+            <testcase name="MultipleManualPrescanInvoiceEntry" time="0.618" classname="test.java.PrescanManualInvoicesTest">
+                <failure type="java.lang.AssertionError"
+                  message="Prescan Manual Invoices Module Launch Failed expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Prescan Manual Invoices Module Launch Failed expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:513)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  test.java.PrescanManualInvoicesTest.MultipleManualPrescanInvoiceEntry(PrescanManualInvoicesTest.java:101)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+  org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+  org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="AddManualPrescanInvoiceEntry" time="9.836" classname="test.java.PrescanManualInvoicesTest" />
+      
+</testsuite>

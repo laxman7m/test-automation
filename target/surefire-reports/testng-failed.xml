@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [REGRESSION SUITE]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="utility.ExtentListener"/>
+  </listeners>
+  <test name="Prescan Manual Invoices">
+    <classes>
+      <class name="test.java.PrescanManualInvoicesTest"/>
+    </classes>
+  </test> <!-- Prescan Manual Invoices -->
+  <test name="Prescan Manual Invoices(failed)">
+    <classes>
+      <class name="test.java.PrescanManualInvoicesTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownTest"/>
+          <include name="afterTestCase"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpTest"/>
+          <include name="setUpClass"/>
+          <include name="beforeTestCase"/>
+          <include name="MultipleManualPrescanInvoiceEntry"/>
+        </methods>
+      </class> <!-- test.java.PrescanManualInvoicesTest -->
+    </classes>
+  </test> <!-- Prescan Manual Invoices(failed) -->
+</suite> <!-- Failed suite [REGRESSION SUITE] -->
